@@ -1,0 +1,18 @@
+manifest:
+  defaults:
+    revision: master
+
+  remotes:
+    - name: nordic
+      url-base: https://github.com/nrfconnect
+  
+  projects:
+    - name: sdk-nrf
+      path: nrf
+      remote: nordic
+      revision: v2.7.0
+      import: true
+      
+  self:
+    path: ncs-test
+    
